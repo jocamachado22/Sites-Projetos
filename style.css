@@ -1,0 +1,92 @@
+/* Importa a fonte Roboto com peso 500 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Estilos gerais do corpo da página */
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    color: #005fa7; /* Cor do texto principal */
+    font-weight: 500; /* Peso da fonte */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+}
+
+/* Estilos para o cabeçalho da página */
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* Estilos para os links no cabeçalho */
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+    color: #4aabf6; /* Cor dos links no cabeçalho */
+    font-size: 12px;
+}
+
+.cabeçalho-link a:hover {
+    color: #007ac9; /* Cor dos links no cabeçalho ao passar o mouse */
+    transition: 0.3s all; /* Efeito de transição ao passar o mouse */
+}
+
+/* Estilos para o logotipo no cabeçalho, não consegui ajustar o logotipo do FA então coloquei como texto, mas deixei no CSS mesmo assim para registro */
+.logo i {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #005fa7; /* Cor da borda do logotipo */
+    color: #2d98e9; /* Cor do logotipo */
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* Estilos para cabeçalhos (h1, h2, h3) */
+h1, h2, h3 {
+    color: #005fa7; /* Cor dos cabeçalhos */
+    font-weight: 600; /* Peso da fonte dos cabeçalhos */
+}
+
+/* Estilos para parágrafos (p) */
+p {
+    color: #005fa7; /* Cor do texto dos parágrafos */
+    font-weight: 500; /* Peso da fonte dos parágrafos */
+}
+
+/* Estilos para links */
+a {
+    color: #005fa7; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+a:hover {
+    color: #007ac9; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilos para botões */
+.btn {
+    background: #005fa7; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #007ac9; /* Cor de fundo dos botões ao passar o mouse */
+}
